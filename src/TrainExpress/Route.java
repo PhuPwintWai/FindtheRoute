@@ -31,6 +31,11 @@ public class Route {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+
+	@Override
+	public String toString() {
+		return "Route [minutes=" + minutes + "]";
+	}
 	
   
 }

@@ -65,7 +65,6 @@ public class Calculate
           		    System.out.println("The quickest route from Station "+start+" to "+end+" : " + path);
           		    System.out.println("Duration is " + (int)st.getMinDistance()+" minutes.");
           	}
-          	
           }
           if(count!=2){
         		System.out.println("The station is not available");
